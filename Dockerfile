@@ -1,4 +1,4 @@
-FROM node:11.2.0
+FROM node:11.15.0
 RUN npm install -g grunt-cli
 RUN npm install -g pm2
 RUN npm install -g lerna
